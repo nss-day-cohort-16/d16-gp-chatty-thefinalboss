@@ -24,6 +24,7 @@ var Chatty = (function(oldChatty) {
       messages.push(userMessage);
       // console.log("our new message: ", messages);
       oldChatty.outputToWindow(messages, "chat_window");
+      oldChatty.enableClear();
     } else {
       return;
     }
@@ -46,6 +47,12 @@ var Chatty = (function(oldChatty) {
     }
     document.getElementById(chatID).appendChild(newElement);
     document.getElementById('user_input').value = "";
+  };
+
+  oldChatty.enableClear = function () {
+    var elClearButton =  document.getElementById("clear_button");
+    elClearButton.removeAttribute("disabled");
+
   };
 
   document.getElementById("clear_button")
