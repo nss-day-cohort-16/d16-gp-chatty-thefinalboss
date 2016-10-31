@@ -35,6 +35,18 @@ function large_text() {
   }
 }
 
+
+  function DisableClear(event) {
+    var window = document.getElementById("chat_window");
+    
+     event.target.setAttribute("disabled", "disabled");
+    
+    
+    console.log("event.target.disabled T?", event.target.disabled);
+  }
+
+  document.getElementById('clear_button').addEventListener("click", DisableClear);
+
 // document.getElementById("clear_button")
 // 	.addEventListener("click", clearFunc);
 
