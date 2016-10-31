@@ -2,32 +2,37 @@
 <html>
 <head>
 <!-- <link rel="stylesheet" type="text/css" href="normalize.css"> -->
-<link rel="stylesheet" type="text/css" href="../">
+<link href="https://fonts.googleapis.com/css?family=IM+Fell+English|Quicksand" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+
 
 	<title>The Final Boss</title>
 </head>
-<body>
+<body id="bodyYo">
 	<div id="wrapper">
 
 		<div id="nav">
-		  <div> <img src='#'> </div>
+		  <div> <img id="logo" src='images/Slack.png'> </div>
 			<label>Chatty!</label>
-			<input id="user_input" width="200" height="100" type="text" name="user_input"> 
-			<input id="clear_button" type="button" name="clear_button" value="clear">
+			<input id="user_input" style="width: 300px;" type="text" name="user_input"> 
+			<input id="clear_button" type="button" name="clear_button" value="Clear Board">
 			<br>
-			<input id="dark_theme" type="checkbox" name="dark_theme" value="">
+			<input id="dark_theme" type="checkbox" name="dark_theme" value="darkTheme">
 			<label>Dark Theme</label>
 
-			<input id="large_text" type="checkbox" name="large_text" value="">
+			<input id="large_text" type="checkbox" name="large_text" value="largeText">
 			<label>Large Text</label>
 		</div>
 
-		<div id="chat_window"></div>
+		<div id="chat_design" class="norm">
+			<ul id="chat_window"></ul>
+		</div>
 	</div>
 
-	<script type="text/javascript" src="../JS/chatty.js"></script>
-	<script type="text/javascript" src="../JS/dom.js"></script>
-	<script type="text/javascript" src="../JS/remove.js"></script>
+	<script type="text/javascript" src="JS/chatty.js"></script>
+	<script type="text/javascript" src="JS/dom.js"></script>
+	<script type="text/javascript" src="JS/remove.js"></script>
+	<script type="text/javascript" src="JS/main.js"></script>
 
 </body>
 </html>

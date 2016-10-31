@@ -1,0 +1,129 @@
+body {
+	background-image: url("/images/SpaceTeeWhy.gif");
+	background-size: cover;
+	background-position: center;
+  color: white;
+  text-outline: 1px 1px #000;
+  font-size: 1.04em
+}
+
+.large {
+ font-size: 1.18em;
+ font-weight: bold;
+}
+
+#logo {
+ max-width: 8%;
+}
+
+#wrapper {
+	max-width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	height: 500px;
+}
+
+ul {
+	list-style: none;
+	max-width: 90%;
+	margin-left: 5%;
+	margin-right:5%;
+}
+
+ul li {
+	text-align: left;
+}
+
+#nav {
+	display: inline-block;
+	max-width: 100%;
+}
+
+#chat_design {
+}
+
+/*//////////TOGGLE CLASS///////////*/
+.norm {
+	/*background-color: #C0F5FF;*/
+	background-image: url("/images/giphy-1.gif");
+	background-size: cover;
+	border: solid lightgrey 3px;
+	border-radius: 25px;
+	max-width: 80%;
+	margin: 0 auto;
+	color: black;
+	font-family: 'Quicksand', sans-serif;
+}
+
+/*//////////TOGGLE CLASS///////////*/
+.dark {
+	color: white;
+	text-shadow: 
+	-1px -1px 0 #000,
+	-1px -1px 0 #000,
+	-1px -1px 0 #000,
+	-1px -1px 0 #000;
+	background-image: url("/images/giphy-2.gif");
+	background-size: cover;
+	border: solid black 3px;
+	border-radius: 25px;
+	max-width: 80%;
+	margin: 0 auto;
+	font-family: 'IM Fell English', serif;
+}
+
+/*///////DELETE BUTTON//////*/
+.deleteMe {
+	border-radius: 15px;
+	color: white;
+	/*background-color: #36454F;*/
+	background-image: url("/images/SpaceTeeWhy.gif");
+	background-position: left;
+	margin-left: 1%;
+	font-size: 10px;
+	font-family: sans-serif;
+	-webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.deleteMe:hover {
+	color: lightgrey;
+	background-image: url("/images/SpaceTeeWhy.gif");
+	background-position: left top;
+}
+
+/*////////Clear Button//////*/
+#clear_button {
+	border-radius: 15px;
+	/*background-color: #36454F;*/
+	background-image: url("/images/SpaceTeeWhy.gif");
+	background-position: left;
+	color: white;
+	margin-left: 1%;
+	font-size: 10px;
+	-webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+  cursor: pointer;
+  cursor: hand;
+}
+
+#clear_button:hover {
+	color: lightgrey;
+	background-image: url("/images/SpaceTeeWhy.gif");
+	background-position: left top;
+}
+
+/*///////CheckBox/////////*/
+#dark_theme {
+	cursor: pointer;
+  cursor: hand;
+}
+
+#large_text {
+	cursor: pointer;
+  cursor: hand;
+}
+
+/*# sourceMappingURL=styles.css.map */
